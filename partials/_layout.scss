@@ -2,18 +2,3 @@
     position: relative;
 }
 
-.pelv-home::before{
-    content: '';
-    display: block;
-    position: absolute;
-    background-image: linear-gradient(to bottom, rgba(233, 98, 197, 0.818), #F6D0EE), url("../assets/logo_fachada.jpg");
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 300%;
-    z-index: -1;
-    background-position: 60% 60%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    opacity: 2;
-}
