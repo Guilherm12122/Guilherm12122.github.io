@@ -51,8 +51,12 @@ i{
         }
     }
 
+    .header-content div{
+        flex: 1;
+    }
+
     .header-logo{
         margin-top: 25px;
-        margin-left: 5px;
+        margin-left: 3px;
     }
 }

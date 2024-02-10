@@ -54,9 +54,12 @@ i {
   .header-content i {
     margin-left: 20px;
   }
+  .header-content div {
+    flex: 1;
+  }
   .header-logo {
     margin-top: 25px;
-    margin-left: 5px;
+    margin-left: 3px;
   }
 }
 .missao {
@@ -75,6 +78,9 @@ i {
 }
 .missao-content .missao-descricao {
   font-size: 35px;
+}
+.missao-content .missao-descricao h2 {
+  display: none;
 }
 
 .missao {
