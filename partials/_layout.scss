@@ -26,3 +26,25 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .missao-content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .missao-descricao{
+        h2{
+            display: none;
+        }
+        p{
+            font-size: 35px;
+        }
+    }
+
+    .missao img{
+        width: 325px;
+        height: 400px;
+    }
+    
+}
+
