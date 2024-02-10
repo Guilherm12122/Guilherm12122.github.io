@@ -5,8 +5,11 @@ header{
 .header-content{
     display: flex;
     justify-content: space-between;
+}
 
-    
+.slogan{
+    margin-top: 100px;
+    font-size: 35px;
 }
 
 i{
@@ -21,9 +24,10 @@ i{
     color: $home-dark-purple;
     font-size: 45px;
     align-items: center;
-    margin-left: 500px;
-
+    margin-left: 350px;
+    margin-top: 60px;
 }
+
 
 .header-icons{
     display: flex;
@@ -33,6 +37,7 @@ i{
 @media screen and (max-width: 768px){
     .header-logo {
         font-size: 40px;
+        flex-direction: column;
     }
 
     .header-content{
@@ -47,7 +52,7 @@ i{
     }
 
     .header-logo{
-        margin-top: 10px;
-        margin-left: 50px;
+        margin-top: 25px;
+        margin-left: 5px;
     }
 }

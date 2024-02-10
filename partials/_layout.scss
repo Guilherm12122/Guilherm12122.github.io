@@ -1,4 +1,28 @@
-.pelv-home{
-    position: relative;
+.missao{
+    background-color: $home-white;
+    overflow: hidden;
+}
+
+.missao-content{
+    padding: 50px;
+    display: flex;
+    gap: 45px;
+
+}
+
+.missao-content{
+    flex: 1;
+
+    .missao-descricao{
+        font-size: 35px;
+    }
+}
+
+.missao{
+    margin-top: 100px;
+
+    img{
+        border-radius: 2%;
+    }
 }
 

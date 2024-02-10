@@ -14,6 +14,11 @@ header {
   justify-content: space-between;
 }
 
+.slogan {
+  margin-top: 100px;
+  font-size: 35px;
+}
+
 i {
   color: #7C1F92;
   margin-left: 30px;
@@ -26,7 +31,8 @@ i {
   color: #7C1F92;
   font-size: 45px;
   align-items: center;
-  margin-left: 500px;
+  margin-left: 350px;
+  margin-top: 60px;
 }
 
 .header-icons {
@@ -37,6 +43,7 @@ i {
 @media screen and (max-width: 768px) {
   .header-logo {
     font-size: 40px;
+    flex-direction: column;
   }
   .header-content {
     width: 100%;
@@ -48,12 +55,33 @@ i {
     margin-left: 20px;
   }
   .header-logo {
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 25px;
+    margin-left: 5px;
   }
 }
-.pelv-home {
-  position: relative;
+.missao {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.missao-content {
+  padding: 50px;
+  display: flex;
+  gap: 45px;
+}
+
+.missao-content {
+  flex: 1;
+}
+.missao-content .missao-descricao {
+  font-size: 35px;
+}
+
+.missao {
+  margin-top: 100px;
+}
+.missao img {
+  border-radius: 2%;
 }
 
 body {
@@ -70,10 +98,6 @@ button {
 }
 
 svg {
-  width: 100%;
-}
-
-img {
   width: 100%;
 }
 
