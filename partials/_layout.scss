@@ -1,6 +1,8 @@
 .missao{
     background-color: $home-white;
     overflow: hidden;
+
+    font-family: 'Arial';
 }
 
 .missao-content{
@@ -14,7 +16,7 @@
     flex: 1;
 
     .missao-descricao{
-        font-size: 30px;
+        font-size: 25px;
 
         h2{
             display: none;
@@ -31,8 +33,8 @@
 }
 
 .horario-funcionamento{
-    margin-top: 220px;
-    font-size: 20px;
+    margin-top: 250px;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 768px){
