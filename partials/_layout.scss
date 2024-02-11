@@ -14,7 +14,7 @@
     flex: 1;
 
     .missao-descricao{
-        font-size: 35px;
+        font-size: 30px;
 
         h2{
             display: none;
@@ -28,6 +28,11 @@
     img{
         border-radius: 2%;
     }
+}
+
+.horario-funcionamento{
+    margin-top: 220px;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 768px){
@@ -50,5 +55,95 @@
         height: 400px;
     }
     
+}
+
+.footer-content{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer-logo{
+    margin: auto;
+    text-align: center;
+    color: $home-dark-purple;
+    font-size: 30px;
+    margin-left: 10px;
+    justify-content: center;
+
+    h1{
+        margin-top: 5px;
+    }
+}
+
+.endereco{
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+
+    p{
+        color: $home-dark-purple;
+    }
+}
+
+//Botão whatsapp
+.btn-whatsapp{
+
+    position: fixed;
+    bottom: 14px;
+    right: 24px;
+    z-index: 99;
+
+    img{
+        max-width: 74px;
+        transition: transform 0.4s;
+    }
+    
+}
+
+.btn-whatsapp img:hover{
+    transform: scale(1.1);
+}
+
+.btn-whatsapp .tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: -144px;
+    color: $home-white;
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: #06121e;
+    padding: 4px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn-whatsapp:hover .tooltip-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    .btn-whatsapp{
+        img{
+            max-width: 54px;
+        }
+    }
+
+    .endereco{
+        margin-top: 80px;
+    }
+
+    .footer-logo{
+        font-size: 30px;
+        margin-top: 35px;
+    }
+
+    // .footer-icone{
+    //     width: 5px;
+    //     height: 5px;
+    // }
 }
 
