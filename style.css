@@ -63,7 +63,7 @@ i {
   }
 }
 .missao {
-  background-color: #ffffff;
+  background-color: white;
   overflow: hidden;
   font-family: "Arial";
 }
@@ -160,7 +160,7 @@ i {
   width: 120px;
   top: 8px;
   left: -144px;
-  color: #ffffff;
+  color: white;
   opacity: 0;
   transition: opacity 0.3s;
   background-color: #06121e;
@@ -175,15 +175,26 @@ i {
 }
 
 @media screen and (max-width: 768px) {
+  .missao-content img {
+    height: 250px;
+    width: 340px;
+  }
+  .missao-content p {
+    font-size: 20px;
+    margin-top: 1px;
+  }
+  .missao-content .horario-funcionamento {
+    font-size: 5px;
+    margin-top: 50px;
+  }
   .btn-whatsapp img {
     max-width: 54px;
   }
   .endereco {
     margin-top: 80px;
   }
-  .footer-logo {
-    font-size: 30px;
-    margin-top: 35px;
+  .info-footer {
+    margin-top: 8px;
   }
 }
 body {

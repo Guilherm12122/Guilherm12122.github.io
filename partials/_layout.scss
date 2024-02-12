@@ -128,6 +128,25 @@
 }
 
 @media screen and (max-width: 768px){
+
+    .missao-content {
+
+        img{
+            height: 250px;
+            width: 340px;
+        }
+
+        p{
+            font-size: 20px;
+            margin-top: 1px;
+        }
+
+        .horario-funcionamento{
+            font-size: 5px;
+            margin-top: 50px;
+        }
+    }
+
     .btn-whatsapp{
         img{
             max-width: 54px;
@@ -138,10 +157,14 @@
         margin-top: 80px;
     }
 
-    .footer-logo{
-        font-size: 30px;
-        margin-top: 35px;
+    .info-footer{
+        margin-top: 8px;
     }
+
+    // .footer-logo{
+    //     font-size: 30px;
+    //     margin-top: 30px;
+    // }
 
     // .footer-icone{
     //     width: 5px;
