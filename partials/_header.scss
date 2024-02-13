@@ -85,9 +85,9 @@ ul{
 
 .pelv-home .nav-menu{
     position: fixed;
-    right: -200%;
+    right: -100%;
     top: 100px;
-    width: 130%;
+    width: 100%;
     height: 31%;
     flex-direction: column;
     background: #ffff;
@@ -114,6 +114,14 @@ ul{
 }
 
 @media screen and (max-width: 768px){
+
+    .pelv-home .nav-menu{
+        width: 100%;
+    }
+
+    .nav-menu.ativo{
+        right: -60%;
+    }
 
     .header-logo {
         font-size: 40px;
