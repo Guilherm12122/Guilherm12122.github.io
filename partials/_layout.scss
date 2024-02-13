@@ -55,10 +55,10 @@
         }
     }
 
-    .missao img{
-        width: 300px;
-        height: 400px;
-    }
+    // .missao img{
+    //     width: 300px;
+    //     height: 400px;
+    // }
     
 }
 
@@ -136,18 +136,17 @@
 
         img{
             height: 250px;
-            width: 340px;
-        }
-
-        p{
-            font-size: 20px;
-            margin-top: 1px;
+            width: 310px;
         }
 
         .horario-funcionamento{
-            font-size: 5px;
+            font-size: 20px;
             margin-top: 50px;
         }
+    }
+
+    .missao-descricao{
+        margin-top: 1px;
     }
 
     .btn-whatsapp{
@@ -158,6 +157,10 @@
 
     .endereco{
         margin-top: 80px;
+    }
+
+    .missao-content{
+        gap: 20px;
     }
 
     .info-footer{

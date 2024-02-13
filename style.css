@@ -116,6 +116,7 @@ ul {
 @media screen and (max-width: 768px) {
   .pelv-home .nav-menu {
     width: 100%;
+    height: 23%;
   }
   .nav-menu.ativo {
     right: -60%;
@@ -191,10 +192,6 @@ ul {
   .missao-descricao h2 {
     display: none;
   }
-  .missao img {
-    width: 300px;
-    height: 400px;
-  }
 }
 .footer-content {
   margin: auto;
@@ -261,21 +258,23 @@ ul {
 @media screen and (max-width: 768px) {
   .missao-content img {
     height: 250px;
-    width: 340px;
-  }
-  .missao-content p {
-    font-size: 20px;
-    margin-top: 1px;
+    width: 310px;
   }
   .missao-content .horario-funcionamento {
-    font-size: 5px;
+    font-size: 20px;
     margin-top: 50px;
+  }
+  .missao-descricao {
+    margin-top: 1px;
   }
   .btn-whatsapp img {
     max-width: 54px;
   }
   .endereco {
     margin-top: 80px;
+  }
+  .missao-content {
+    gap: 20px;
   }
   .info-footer {
     margin-top: 8px;
