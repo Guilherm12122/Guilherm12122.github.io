@@ -41,6 +41,12 @@ i {
   gap: 14px;
 }
 
+.menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .pelv-home ul li a {
   color: #7C1F92;
 }
