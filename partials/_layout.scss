@@ -12,6 +12,10 @@
 
 }
 
+.missao{
+    box-shadow: 0 0.1rem 0.5rem #8e8d8d;;
+}
+
 .missao-content{
     flex: 1;
 
@@ -25,10 +29,11 @@
 }
 
 .missao{
-    margin-top: 100px;
+    margin-top: 70px;
 
     img{
         border-radius: 2%;
+        box-shadow: 0 0.1rem 0.5rem #747070;
     }
 }
 
@@ -61,7 +66,7 @@
 
 .footer-content{
     margin: auto;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .footer-logo{

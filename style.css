@@ -141,6 +141,10 @@ ul {
   gap: 45px;
 }
 
+.missao {
+  box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+}
+
 .missao-content {
   flex: 1;
 }
@@ -152,10 +156,11 @@ ul {
 }
 
 .missao {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 .missao img {
   border-radius: 2%;
+  box-shadow: 0 0.1rem 0.5rem #747070;
 }
 
 .horario-funcionamento {
@@ -181,7 +186,7 @@ ul {
 }
 .footer-content {
   margin: auto;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .footer-logo {
