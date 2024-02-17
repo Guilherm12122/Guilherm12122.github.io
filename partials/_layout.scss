@@ -2,7 +2,7 @@
     background-color: $home-white;
     overflow: hidden;
 
-    font-family: 'Arial';
+    font-family:'Open Sans';
 }
 
 .missao-content{
@@ -39,7 +39,7 @@
 }
 
 .horario-funcionamento{
-    margin-top: 135px;
+    margin-top: 100px;
     font-size: 15px;
 }
 
@@ -159,6 +159,7 @@
         img{
             max-width: 54px;
         }
+        bottom: 5%;
     }
 
     .endereco{

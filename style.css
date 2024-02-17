@@ -165,7 +165,7 @@ ul {
 .missao {
   background-color: white;
   overflow: hidden;
-  font-family: "Arial";
+  font-family: "Open Sans";
 }
 
 .missao-content {
@@ -198,7 +198,7 @@ ul {
 }
 
 .horario-funcionamento {
-  margin-top: 135px;
+  margin-top: 100px;
   font-size: 15px;
 }
 
@@ -292,6 +292,9 @@ ul {
   }
   .missao-descricao {
     margin-top: 1px;
+  }
+  .btn-whatsapp {
+    bottom: 5%;
   }
   .btn-whatsapp img {
     max-width: 54px;
