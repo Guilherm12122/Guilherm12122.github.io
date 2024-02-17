@@ -248,7 +248,7 @@ ul {
 
 .btn-whatsapp {
   position: fixed;
-  bottom: 14px;
+  bottom: 8%;
   right: 24px;
   z-index: 99;
 }
@@ -294,7 +294,7 @@ ul {
     margin-top: 1px;
   }
   .btn-whatsapp {
-    bottom: 5%;
+    bottom: 1%;
   }
   .btn-whatsapp img {
     max-width: 54px;
