@@ -34,12 +34,18 @@
     img{
         border-radius: 2%;
         box-shadow: 0 0.1rem 0.5rem #747070;
+        transition: transform 0.2s;
     }
 }
 
 .horario-funcionamento{
-    margin-top: 250px;
+    margin-top: 135px;
     font-size: 15px;
+}
+
+.missao img:hover{
+    transform: scale(1.2);
+    z-index: 1;
 }
 
 @media screen and (max-width: 768px){
@@ -165,6 +171,10 @@
 
     .info-footer{
         margin-top: 8px;
+    }
+
+    .afazer{
+        display: none;
     }
 
     // .footer-logo{
