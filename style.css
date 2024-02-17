@@ -132,10 +132,11 @@ ul {
   }
 }
 @media screen and (max-width: 768px) {
-  .pelv-home .nav-menu {
-    width: 100%;
-    height: 50vh;
-    z-index: 1;
+  .menu-config .nav-menu {
+    height: 220px;
+  }
+  .menu-nav-radius {
+    margin-bottom: 20px;
   }
   .nav-menu.ativo {
     right: -60%;
