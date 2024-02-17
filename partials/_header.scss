@@ -141,8 +141,10 @@ ul{
 @media screen and (max-width: 768px){
 
     .pelv-home .nav-menu{
+        position: fixed;
         width: 100%;
-        height: 26%;
+        height: 28%;
+        z-index: 1;
     }
 
     .nav-menu.ativo{
