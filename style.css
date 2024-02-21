@@ -323,6 +323,46 @@ ul {
     display: none;
   }
 }
+.profissional-content {
+  font-family: "Open Sans";
+  margin-top: 100px;
+}
+.profissional-content img {
+  border-radius: 15px;
+  box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+}
+.profissional-content .info-trabalho-ind {
+  margin-top: 65px;
+}
+.profissional-content .info-formacao {
+  display: flex;
+  background-color: white;
+  padding: 40px;
+  gap: 45px;
+  width: 1300px;
+  margin-left: 80px;
+  font-size: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+}
+.profissional-content .info-formacao .especialista {
+  margin-top: 235px;
+}
+.profissional-content .info-trabalho-ind {
+  display: flex;
+  background-color: white;
+  padding: 40px;
+  gap: 45px;
+  width: 1300px;
+  margin-left: 80px;
+  font-size: 25px;
+  border-radius: 15px;
+  box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+}
+.profissional-content .text-idealizadora {
+  margin-top: 235px;
+}
+
 body {
   font-family: "Belleza", sans-serif;
   width: 100%;

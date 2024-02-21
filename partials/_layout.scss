@@ -190,3 +190,50 @@
     // }
 }
 
+// ********* LAYOUT - PROFISSIONAIS *********
+.profissional-content{
+
+    font-family: 'Open Sans';
+    margin-top: 100px;
+    img{
+        border-radius: 15px;
+        box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+    }
+
+    .info-trabalho-ind{
+        margin-top: 65px;
+    }
+
+    .info-formacao{
+        display: flex;
+        background-color: $home-white;
+        padding: 40px;
+        gap: 45px;
+        width: 1300px;
+        margin-left: 80px;
+        font-size: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+        
+        .especialista{
+            margin-top: 235px;
+        }
+    }
+
+    .info-trabalho-ind{
+        display: flex;
+        background-color: $home-white;
+        padding: 40px;
+        gap: 45px;   
+        width: 1300px;     
+        margin-left: 80px;
+        font-size: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+    }
+
+    .text-idealizadora{
+        margin-top: 235px;
+    }
+}
+
