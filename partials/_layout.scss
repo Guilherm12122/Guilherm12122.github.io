@@ -190,3 +190,38 @@
     // }
 }
 
+// ***** PROFISSIONAIS *********
+.profissionais{
+    background-color: $home-white;
+    flex: 1;
+    width: 1400px;
+    font-family: 'Open Sans';
+    text-align: justify;
+    margin-left: 35px;
+    margin-top: 70px;
+    box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+    // overflow: hidden;
+    // text-align: justify;
+
+    .imgs-syntia{
+        display: flex;
+        gap: 45px;
+        margin-left: 80px;
+        img{
+            box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+            border-radius: 2%;
+        }
+    }
+
+    .profissional-content{
+        padding: 50px;
+    }
+
+    .text-syntia{
+        padding-left: 80px;
+        padding-right: 80px;
+        font-size: 25px;
+
+        margin-top: 50px;
+    }
+}
