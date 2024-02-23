@@ -335,8 +335,11 @@ ul {
 }
 .profissionais .imgs-syntia {
   display: flex;
-  gap: 45px;
-  margin-left: 80px;
+  gap: 80px;
+  margin-left: 10px;
+  padding: 40px 40px 40px 40px;
+  box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+  border-radius: 10px;
 }
 .profissionais .imgs-syntia img {
   box-shadow: 0 0.1rem 0.5rem #8e8d8d;
@@ -346,8 +349,8 @@ ul {
   padding: 50px;
 }
 .profissionais .text-syntia {
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 25px;
   margin-top: 50px;
 }
