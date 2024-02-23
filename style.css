@@ -355,6 +355,30 @@ ul {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .profissional-content {
+    padding: 20px;
+  }
+  .profissionais {
+    width: 370px;
+    margin-left: 23px;
+  }
+  .profissionais .imgs-syntia {
+    flex-direction: column;
+    box-shadow: none;
+    margin-left: 10px;
+    padding: 0%;
+  }
+  .profissionais .imgs-syntia .img-celular-2 {
+    display: none;
+  }
+  .profissionais .imgs-syntia .img-celular-3 {
+    display: none;
+  }
+  .profissionais .imgs-syntia img {
+    width: 250px;
+  }
+}
 body {
   font-family: "Belleza", sans-serif;
   width: 100%;

@@ -228,3 +228,40 @@
         margin-top: 50px;
     }
 }
+
+// -- PROFISSIONAIS RESPONSIVIDADE
+@media screen and (max-width: 768px){
+
+    .profissional-content{
+        padding: 20px;
+    }
+
+
+    .profissionais{
+        width: 370px;
+        margin-left: 23px;
+        .imgs-syntia{
+            flex-direction: column;
+            box-shadow: none;
+            margin-left: 10px;
+            padding: 0%;
+
+            .img-celular-1{
+                // margin-left: 1px;
+            }
+
+            .img-celular-2{
+                display: none;
+            }
+
+            .img-celular-3{
+                display: none;
+            }
+            
+            img{
+                width: 250px;
+            }
+            // padding: auto;
+        }
+    }
+}
