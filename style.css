@@ -366,10 +366,6 @@ ul {
   .syntia-funcao {
     display: none;
   }
-  .text-syntia {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
   .profissionais {
     width: 370px;
     margin-left: 23px;
@@ -388,6 +384,12 @@ ul {
   }
   .profissionais .imgs-syntia img {
     width: 250px;
+  }
+  .profissionais .text-syntia {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    text-align: start;
   }
 }
 body {

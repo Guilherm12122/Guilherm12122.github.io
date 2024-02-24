@@ -246,11 +246,6 @@
         display: none;
     }
 
-    .text-syntia{
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
 
     .profissionais{
         width: 370px;
@@ -277,6 +272,13 @@
                 width: 250px;
             }
             // padding: auto;
+        }
+
+        .text-syntia{
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 30px;
+            text-align: start;
         }
     }
 }
