@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Belleza&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Profissionais Pelv'On</title>
+</head>
+<body>
+    <script>
+        AOS.init();
+    </script>
+    
+    <!--HEADER-->
+    <div class="pelv-home">
+        <header>
+
+            <nav class="header-content container">
+                <div class="header-icones" data-aos="fade-down" data-aos-delay="300">
+                    <a href="https://www.instagram.com/pelvonfisiopelvica/">
+                        <i class="fa-brands fa-instagram fa-3x"></i>
+                    </a>
+
+
+                </div>
+
+                <div class="header-logo profissionais-logo" data-aos="fade-up" 
+                    data-aos-delay="250">
+                    <h1>Pelv'On</h1>
+                    <p>SAÚDE PÉLVICA <br>& ONCOLÓGICA
+                        <!-- <div class="slogan">
+                            <p><i>“Pelv’On, cuidado que transforma vidas”</i></p>
+                        </div> -->
+                </div>
+
+
+
+            </nav>
+
+            <div class="menu-config">
+                <div class="menu-nav-radius">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="profissionais.html">Profissionais</a></li>
+                    <li class="nav-item"><a href="#">Serviços</a></li>
+                    <li class="nav-item"><a href="#">Espaço</a></li>
+                    <li class="nav-item"><a href="#">Outros</a></li>
+                </ul>
+                </div>
+                <div class="menu" data-aos="fade-down" data-aos-delay="300">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+
+        </header>
+
+    </div>
+
+    <!--ESPACO-->
+    <section class="espaco">
+        <div class="content espaco-content">
+            <div id="image-container">
+                <div>
+                    <div class="controle-img">
+                        <button id="left-arrow" class="arrow" onclick="changeImage(-1)">←</button>
+                        <button id="right-arrow" class="arrow" onclick="changeImage(1)">→</button>
+                    </div>
+                    <img src="assets/foto_fachada_m.jpg" alt="Image 1" id="image1" style="opacity: 1;">
+                    <img src="assets/interno.jpg" alt="Image 2" id="image2" style="opacity: 0;">
+                </div>
+              </div>
+            <div class="texto-espaco">
+                <p>O espaço físico da Clínica Pelv’On, cuidadosamente projetado, destaca-se 
+                    como a única clínica de fisioterapia especializada em Guarulhos em tratamentos pélvicos e oncológicos.
+                    Nossa infraestrutura é planejada com atenção para proporcionar conforto aos pacientes, 
+                    criando um ambiente propício para o tratamento e a recuperação.</p>
+                    <div class="texto-endereco">
+                        <p><strong>Endereço:</strong> Rua Mogi das Cruzes 518, Guarulhos.</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--JS para transição de imagens-->
+    <script>
+        let currentImage = 1;
+      
+        function changeImage(direction) {
+          const container = document.getElementById('image-container');
+          const image1 = document.getElementById('image1');
+          const image2 = document.getElementById('image2');
+      
+          currentImage += direction;
+      
+          if (currentImage > 2) {
+            currentImage = 1;
+          } else if (currentImage < 1) {
+            currentImage = 2;
+          }
+      
+          const opacityValue = currentImage === 1 ? 1 : 0;
+
+
+        image1.style.opacity = opacityValue;
+        image2.style.opacity = 1 - opacityValue;
+
+        }
+      </script>
+    <!--FOOTER-->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+            <div class="footer-icone" data-aos="fade-down">
+                <a href="https://www.instagram.com/pelvonfisiopelvica/">
+                    <i class="fa-brands fa-instagram fa-3x"></i>
+                </a>
+            </div>
+    
+        <div class="info-footer" data-aos="fade-up" data-aos-delay="300">
+            <div class="footer-logo">
+                <h1>Pelv'On</h1>
+                <p>SAÚDE PÉLVICA <br>& ONCOLÓGICA
+            </div>
+    
+            <div class="endereco">
+                <p>Rua Mogi das Cruzes 518, Guarulhos.</p>
+            </div>
+        </div>
+    </div>
+        </footer>
+
+            <!--Btn whatsapp-->
+            <a href="https://api.whatsapp.com/send?phone=5511917730815&text=Quero%20fazer%20um%20agendamento%20hoje!" 
+            class="btn-whatsapp" 
+            target="_blank"
+            data-aos="zoom-in-up"
+            data-aos-delay="300">
+            <img 
+                src="assets/whatssapp.svg" 
+                alt="whatsapp-btn"
+            />
+            <span class="tooltip-text">Agende seu horário</span>
+        </a>
+        
+        <script src="script.js"></script>
+
+    <!--JS-->
+    <script src="script.js"></script>
+</body>
