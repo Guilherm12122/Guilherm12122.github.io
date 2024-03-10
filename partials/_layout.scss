@@ -374,3 +374,30 @@
     opacity: 1; /* Quando o mouse está sobre a div #image-container, as setas se tornam visíveis */
   }
 }
+
+.fotos-espaco{
+    background-color: $home-white;
+    margin-top: 50px;
+    padding: 40px 40px 40px 40px;
+    margin-left: 35px;
+    margin-right: 35px;
+    box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+
+    .imgs-conteiner img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .imgs-conteiner{
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        img{
+            height: 300px;
+            width: 300px;
+            border-radius: 10%;
+            box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+            transition: transform 0.2s;
+        }
+    }
+}
