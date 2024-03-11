@@ -401,3 +401,15 @@
         }
     }
 }
+
+.map-clinica{
+    margin-top: 50px;
+    margin-left: 35px;
+    margin-right: 35px;
+    background-color: $home-white;
+    box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+    padding: 40px 40px 40px 40px;
+    iframe{
+        width: 1325px;
+    }
+}
