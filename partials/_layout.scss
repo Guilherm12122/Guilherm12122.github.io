@@ -287,101 +287,50 @@
 // ******* ESPAÇOS *******
 .espaco{
     background-color: $home-white;
-    // flex: 1;
+    flex: 1;
     width: 1400px;
     font-family: 'Open Sans';
     text-align: justify;
     margin-left: 35px;
     margin-top: 70px;
     box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-    height: 600px;
+    font-size: 20px;
+
+    .espaco-content img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .texto-endereco{
+        margin-top: 215px;
+    }
 
     .espaco-content{
         display: flex;
         gap: 30px;
-    }
+        padding: 40px 40px 40px 40px;
 
-    .texto-espaco{
-        padding-right: 100px;
-        padding-top: 100px;
-        font-size: 20px;
-
-
-        .texto-endereco{
-            margin-top: 230px;
+        img{
+            box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+            border-radius: 2%;
+            transition: transform 0.2s;
         }
     }
-
-#image-container {
-    position: relative;
-    width: 50px;
-    height: 600px;
-    overflow: hidden;
-    margin-left: 50px;
-    padding-top: 35px;
-    padding-right: 450px;
-
-    .controle-img{
-        margin-top: 60px;
-    }
-  }
-
-  #left-arrow{
-    margin-left: 20px;
-  }
-  #right-arrow{
-    margin-right: 48px;
-  }
-
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    cursor: pointer;
-    font-size: 24px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border: none;
-    z-index: 1; /* Garante que as setas estejam acima das imagens */
-    opacity: 0; /* Inicialmente, as setas estão invisíveis */
-    transition: opacity 0.3s ease-in-out;
-  }
-
-  #left-arrow {
-    left: 0;
-  }
-
-  #right-arrow {
-    right: 0;
-  }
-
-  img {
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    position: absolute;
-    transition: opacity 0.5s ease-in-out;
-    display: flex;
-    gap: 80px;
-    margin-left: 10px;
-    // box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-    border-radius: 10%;
-    box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-  }
-
-  #image-container:hover .arrow {
-    opacity: 1; /* Quando o mouse está sobre a div #image-container, as setas se tornam visíveis */
-  }
 }
 
 .fotos-espaco{
     background-color: $home-white;
-    margin-top: 50px;
-    padding: 40px 40px 40px 40px;
+    margin-top: 30px;
+    width: 1400px;
     margin-left: 35px;
-    margin-right: 35px;
     box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+    img{
+        width: 350px;
+        height: 350px;
+        box-shadow: 0 0.1rem 0.5rem #8e8d8d;
+        border-radius: 2%;
+        transition: transform 0.2s;
+    }
 
     .imgs-conteiner img:hover{
         transform: scale(1.1);
@@ -390,17 +339,12 @@
 
     .imgs-conteiner{
         display: flex;
+        padding: 40px 40px 40px 40px;
         gap: 80px;
         justify-content: center;
-        img{
-            height: 300px;
-            width: 300px;
-            border-radius: 10%;
-            box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-            transition: transform 0.2s;
-        }
     }
 }
+
 
 .map-clinica{
     margin-top: 50px;
@@ -412,4 +356,10 @@
     iframe{
         width: 1325px;
     }
+}
+
+//Espaço Responsividade
+@media screen and (max-width: 768px){
+
+   
 }
