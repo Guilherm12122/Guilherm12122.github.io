@@ -417,7 +417,7 @@ ul {
 }
 .espaco .espaco-content img {
   box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-  border-radius: 2%;
+  border-radius: 30px;
   transition: transform 0.2s;
 }
 
@@ -432,7 +432,7 @@ ul {
   width: 350px;
   height: 350px;
   box-shadow: 0 0.1rem 0.5rem #8e8d8d;
-  border-radius: 2%;
+  border-radius: 30px;
   transition: transform 0.2s;
 }
 .fotos-espaco .imgs-conteiner img:hover {
@@ -458,6 +458,46 @@ ul {
   width: 1325px;
 }
 
+@media screen and (max-width: 768px) {
+  .map-clinica {
+    width: 370px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 20px;
+  }
+  .map-clinica iframe {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .espaco {
+    width: 370px;
+    margin-left: 20px;
+  }
+  .espaco-content {
+    flex-direction: column;
+    padding: 10px 10px 10px 10px;
+  }
+  .espaco-content img {
+    width: 300px;
+    height: 300px;
+    margin-left: -4px;
+  }
+  .fotos-espaco {
+    width: 370px;
+    margin-left: 20px;
+  }
+  .fotos-espaco .imgs-conteiner {
+    flex-direction: column;
+  }
+  .fotos-espaco .imgs-conteiner img {
+    width: 300px;
+    height: 300px;
+  }
+  .btn-whatsapp {
+    left: 330px;
+  }
+}
 body {
   font-family: "Belleza", sans-serif;
   width: 100%;
