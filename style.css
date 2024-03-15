@@ -137,6 +137,9 @@ ul {
   }
 }
 @media screen and (max-width: 768px) {
+  .espaco-version .nav-menu.ativo {
+    right: -45%;
+  }
   .menu-config .nav-menu {
     height: 220px;
   }
