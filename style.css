@@ -422,6 +422,8 @@ ul {
   box-shadow: 0 0.1rem 0.5rem #8e8d8d;
   border-radius: 30px;
   transition: transform 0.2s;
+  width: 350px;
+  height: 350px;
 }
 
 .fotos-espaco {
