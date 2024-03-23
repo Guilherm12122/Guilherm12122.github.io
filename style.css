@@ -542,6 +542,14 @@ ul {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+  .servico-content .primeiro_conjunto {
+    flex-direction: column;
+  }
+  .servico-content .segundo_conjunto {
+    flex-direction: column;
+  }
+}
 body {
   font-family: "Belleza", sans-serif;
   width: 100%;

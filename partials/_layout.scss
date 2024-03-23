@@ -459,3 +459,15 @@
         }
     }
 }
+
+// Serviço responsividade
+@media screen and (max-width: 768px){
+    .servico-content{
+        .primeiro_conjunto{
+            flex-direction: column;
+        }
+        .segundo_conjunto{
+            flex-direction: column;
+        }
+    }
+}
