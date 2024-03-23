@@ -411,3 +411,51 @@
     }
    
 }
+
+
+// ******** SERVIÇOS ********
+.servicos{
+    background-color: $home-white;
+    margin-top: 70px;
+
+    .service img:hover{
+        transform: scale(1.1);
+        z-index: 1;
+    }
+
+    .descricao-servico{
+        margin-left: 5px;
+        margin-bottom: 7px;
+        z-index: 99;
+        cursor: default;
+    }
+
+    .service{
+        flex-direction: column;
+        flex: 1;
+        border-radius: 8px;
+        box-shadow: 0px -1px 17px -4px rgba(0, 0, 0, 0.45);
+        // padding: 20px 20px 20px 20px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 200px;
+            transition: transform 0.2s;
+        }
+    }
+
+    .servico-content{
+        margin-left: 20px;
+        padding: 40px 40px 40px 40px;
+        font-size: 20px;
+        .primeiro_conjunto{
+            display: flex;
+            gap: 45px;
+        }
+        .segundo_conjunto{
+            display: flex;
+            gap: 45px;
+            margin-top: 50px;
+        }
+    }
+}
